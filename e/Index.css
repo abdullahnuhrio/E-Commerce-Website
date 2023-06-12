@@ -1,0 +1,200 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+   /* For Seccion One */
+
+  .hero0 {
+    background-image: url('images/Seccion3.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1px;
+    color: #333;
+   
+  }
+  
+  .hero0 h1 
+  {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px white;
+  }
+  .hero0 h2 
+  {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px white;
+  }
+
+  .hero0 h3 
+  {
+    color : whitesmoke;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px black;
+  }
+  
+  .hero0 p {
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    /* text-shadow: 0px 1px white; */
+  }
+  
+  /* For Seccion Two */
+  
+  .hero01 {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: #333;
+   
+  }
+  
+  .hero01 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px white;
+  }
+  
+  .hero01 p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-shadow: 0px 2px white;
+  }
+
+   /* For Login And Registration. */
+  
+   .hero1 {
+    background-image: url('image/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: #333;
+   
+  }
+  
+  .hero1 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    /* text-shadow: 0px 2px white; */
+  }
+  
+  .hero1 p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    /* text-shadow: 0px 2px white; */
+  }
+    
+   /* For Seccion Three */
+
+  .hero2 {
+    background-image: url('images/Seccsion.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: #333;
+   
+  }
+  
+  .hero2 h2 
+  {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px white;
+  }
+
+  .hero2 h3 
+  {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition : 0.5s
+  }
+  
+  .button:hover {
+    background-color: #ff0000;
+    color: #fff;
+    transition : 1s;
+  }
+  
+  .products {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .product {
+    width: 300px;
+    margin: 20px;
+    background-color: #333;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    }
+    
+    .product img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    }
+    
+    .product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .product p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    }
+    
+    .category-container {
+    display: flex;
+    justify-content: center;
+    background-color :#333;
+    border-radius: 10px;
+    }
+    
+    .category {
+    
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    }
+    
+    .category img {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 6in; /* or any other desired width */
+    height: 2.5in; /* or any other desired height */
+    /* object-fit: cover; */
+    }
+    
+    .category h3 {
+      color:whitesmoke;
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
